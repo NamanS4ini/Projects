@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+
+<body>
+    <div class="container flex bg-black">
+        <div class="left border bg-black">
+            <div class="home bg-grey rounded m-1 p-1">
+                <div class="logo"><img class="invert" src="img/logo.svg" alt="Spotify"></div>
+                <div class="cross"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" color="#ffffff" fill="none">
+                    <path d="M19.0005 4.99988L5.00049 18.9999M5.00049 4.99988L19.0005 18.9999" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                </svg></div>
+                <ul>
+                    <li class="m-1 roboto-bold"><img class="invert" src="img/home.svg" alt="Home">Home</li>
+                    <li class="m-1 roboto-bold"><img class="invert" src="img/search.svg" alt="Search">Search</li>
+                </ul>
+            </div>
+            <div class="libarary bg-grey rounded m-1 p-1">
+                <div class="playc grey flex roboto-bold bg-grey">
+                    <img src="img/playlist.svg" alt="Playlist">
+                    Your Libarary
+                </div>
+                <div class="songlist">
+
+                    <ol class="songol">
+                    </ol>
+
+                </div>
+            </div>
+        </div>
+        <div class="right border bg-black">
+            <div class="header">
+                <div class="nav">
+                    <img class="hamburger" src="img/hamburger.svg" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#9e9e9e"
+                        fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" color="#9e9e9e"
+                        fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="button">
+                    <button class="sign">Sign up</button>
+                    <button class="log">Log in</button>
+                </div>
+            </div>
+            <div class="playlist bg-grey p-1">
+                <h1>Spotify Playlist</h1>
+                <div data-folder="" class="card-container flex-warp">
+                    
+                    <div data-folder="Angry_(mood)" class="card rounded">
+                        
+                        <div class="img">
+                            
+                            <img class="rounded card-img" src="songs/cs/cover.jpg" alt="Default Title">
+                            <svg class="play" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" class="injected-svg"
+                            data-src="https://cdn.hugeicons.com/icons/play-solid-sharp.svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                            <path
+                            d="M4.62355 3.35132C4.85479 3.21713 5.13998 3.21617 5.3721 3.34882L19.3721 11.3488C19.6058 11.4824 19.75 11.7309 19.75 12C19.75 12.2691 19.6058 12.5177 19.3721 12.6512L5.3721 20.6512C5.13998 20.7838 4.85479 20.7829 4.62355 20.6487C4.39232 20.5145 4.25 20.2674 4.25 20V4C4.25 3.73265 4.39232 3.48551 4.62355 3.35132Z"
+                            fill="#000000"></path>
+                        </svg>
+                    </div>
+                    <h2 class="title">Default Title</h2>
+                    <p class="desc">Chill out with #Spotify</p>
+                </div>
+                    <div data-folder="Bright_(mood)" class="card rounded">
+                        <div class="img">
+                            
+                            <img class="rounded card-img" src="songs/cs/cover.jpg" alt="Default Title">
+                            <svg class="play" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" class="injected-svg"
+                            data-src="https://cdn.hugeicons.com/icons/play-solid-sharp.svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                            <path
+                            d="M4.62355 3.35132C4.85479 3.21713 5.13998 3.21617 5.3721 3.34882L19.3721 11.3488C19.6058 11.4824 19.75 11.7309 19.75 12C19.75 12.2691 19.6058 12.5177 19.3721 12.6512L5.3721 20.6512C5.13998 20.7838 4.85479 20.7829 4.62355 20.6487C4.39232 20.5145 4.25 20.2674 4.25 20V4C4.25 3.73265 4.39232 3.48551 4.62355 3.35132Z"
+                            fill="#000000"></path>
+                        </svg>
+                    </div>
+                    <h2 class="title">Default Title</h2>
+                    <p class="desc">Chill out with #Spotify</p>
+                </div>
+                    <div data-folder="Chill_(mood)" class="card rounded">
+                        <div class="img">
+                            
+                            <img class="rounded card-img" src="songs/cs/cover.jpg" alt="Default Title">
+                            <svg class="play" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" class="injected-svg"
+                            data-src="https://cdn.hugeicons.com/icons/play-solid-sharp.svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                            <path
+                            d="M4.62355 3.35132C4.85479 3.21713 5.13998 3.21617 5.3721 3.34882L19.3721 11.3488C19.6058 11.4824 19.75 11.7309 19.75 12C19.75 12.2691 19.6058 12.5177 19.3721 12.6512L5.3721 20.6512C5.13998 20.7838 4.85479 20.7829 4.62355 20.6487C4.39232 20.5145 4.25 20.2674 4.25 20V4C4.25 3.73265 4.39232 3.48551 4.62355 3.35132Z"
+                            fill="#000000"></path>
+                        </svg>
+                    </div>
+                    <h2 class="title">Default Title</h2>
+                    <p class="desc">Chill out with #Spotify</p>
+                </div>
+                  
+                    <div data-folder="Dark_(mood)" class="card rounded">
+                        <div class="img">
+                            
+                            <img class="rounded card-img" src="songs/cs/cover.jpg" alt="Default Title">
+                            <svg class="play" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" class="injected-svg"
+                            data-src="https://cdn.hugeicons.com/icons/play-solid-sharp.svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                            <path
+                            d="M4.62355 3.35132C4.85479 3.21713 5.13998 3.21617 5.3721 3.34882L19.3721 11.3488C19.6058 11.4824 19.75 11.7309 19.75 12C19.75 12.2691 19.6058 12.5177 19.3721 12.6512L5.3721 20.6512C5.13998 20.7838 4.85479 20.7829 4.62355 20.6487C4.39232 20.5145 4.25 20.2674 4.25 20V4C4.25 3.73265 4.39232 3.48551 4.62355 3.35132Z"
+                            fill="#000000"></path>
+                        </svg>
+                    </div>
+                    <h2 class="title">Default Title</h2>
+                    <p class="desc">Chill out with #Spotify</p>
+                </div>
+                    
+                    <div data-folder="Funky_(mood)" class="card rounded">
+                        <div class="img">
+                            
+                            <img class="rounded card-img" src="songs/cs/cover.jpg" alt="Default Title">
+                            <svg class="play" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" class="injected-svg"
+                            data-src="https://cdn.hugeicons.com/icons/play-solid-sharp.svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                            <path
+                            d="M4.62355 3.35132C4.85479 3.21713 5.13998 3.21617 5.3721 3.34882L19.3721 11.3488C19.6058 11.4824 19.75 11.7309 19.75 12C19.75 12.2691 19.6058 12.5177 19.3721 12.6512L5.3721 20.6512C5.13998 20.7838 4.85479 20.7829 4.62355 20.6487C4.39232 20.5145 4.25 20.2674 4.25 20V4C4.25 3.73265 4.39232 3.48551 4.62355 3.35132Z"
+                            fill="#000000"></path>
+                        </svg>
+                    </div>
+                    <h2 class="title">Default Title</h2>
+                    <p class="desc">Chill out with #Spotify</p>
+                </div>
+                    
+                    <div data-folder="Love_(mood)" class="card rounded">
+                        <div class="img">
+                            
+                            <img class="rounded card-img" src="songs/cs/cover.jpg" alt="Default Title">
+                            <svg class="play" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" class="injected-svg"
+                            data-src="https://cdn.hugeicons.com/icons/play-solid-sharp.svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                            <path
+                            d="M4.62355 3.35132C4.85479 3.21713 5.13998 3.21617 5.3721 3.34882L19.3721 11.3488C19.6058 11.4824 19.75 11.7309 19.75 12C19.75 12.2691 19.6058 12.5177 19.3721 12.6512L5.3721 20.6512C5.13998 20.7838 4.85479 20.7829 4.62355 20.6487C4.39232 20.5145 4.25 20.2674 4.25 20V4C4.25 3.73265 4.39232 3.48551 4.62355 3.35132Z"
+                            fill="#000000"></path>
+                        </svg>
+                    </div>
+                    <h2 class="title">Default Title</h2>
+                    <p class="desc">Chill out with #Spotify</p>
+                </div>
+                    
+                    
+                    <div data-folder="Uplifting_(mood)" class="card rounded">
+                        <div class="img">
+                            
+                            <img class="rounded card-img" src="songs/cs/cover.jpg" alt="Default Title">
+                            <svg class="play" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" class="injected-svg"
+                            data-src="https://cdn.hugeicons.com/icons/play-solid-sharp.svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" role="img" color="#000000">
+                            <path
+                            d="M4.62355 3.35132C4.85479 3.21713 5.13998 3.21617 5.3721 3.34882L19.3721 11.3488C19.6058 11.4824 19.75 11.7309 19.75 12C19.75 12.2691 19.6058 12.5177 19.3721 12.6512L5.3721 20.6512C5.13998 20.7838 4.85479 20.7829 4.62355 20.6487C4.39232 20.5145 4.25 20.2674 4.25 20V4C4.25 3.73265 4.39232 3.48551 4.62355 3.35132Z"
+                            fill="#000000"></path>
+                        </svg>
+                    </div>
+                    <h2 class="title">Default Title</h2>
+                    <p class="desc">Chill out with #Spotify</p>
+                </div>
+            </div>
+                </div>
+                <div class="playbar">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                    <!-- <div class="songinfo"></div> -->
+                    <div class="playname"></div>
+                    <div class="songbtn flex justify-center align-center">
+                        <img id="previous" src="img/prevsong.svg" alt="">
+                        <img id="play" src="img/play.svg" alt="">
+                        <img id="next" src="img/nextsong.svg" alt="">
+                    </div>
+                    <div class="voldiv">
+
+                        <img class="rangebtn" src="img/volume.svg" alt="">
+                        <input class="range" type="range" name="" id="">
+                    </div>
+                    <div class="songtime">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
